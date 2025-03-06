@@ -1,5 +1,5 @@
-selenium
-requests
-python-dotenv
-webdriver-manager
-plyer
+selenium==4.29.0
+requests==2.32.3
+python-dotenv==1.0.1
+webdriver-manager==4.0.2
+plyer==2.1.0
