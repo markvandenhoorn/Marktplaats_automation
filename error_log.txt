@@ -1,0 +1,234 @@
+2025-03-06 09:46:11.897907 - Bot crashed: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=133.0.6943.143)
+Stacktrace:
+	GetHandleVerifier [0x00FF0B43+25139]
+	(No symbol) [0x00F813F4]
+	(No symbol) [0x00E604E3]
+	(No symbol) [0x00E5D957]
+	(No symbol) [0x00E513A8]
+	(No symbol) [0x00E52CB0]
+	(No symbol) [0x00E51637]
+	(No symbol) [0x00E51193]
+	(No symbol) [0x00E50EA1]
+	(No symbol) [0x00E4ED80]
+	(No symbol) [0x00E4F80B]
+	(No symbol) [0x00E63FAE]
+	(No symbol) [0x00EEF427]
+	(No symbol) [0x00ECCFCC]
+	(No symbol) [0x00EEE778]
+	(No symbol) [0x00ECCDC6]
+	(No symbol) [0x00E9BDE9]
+	(No symbol) [0x00E9D124]
+	GetHandleVerifier [0x012F4373+3185251]
+	GetHandleVerifier [0x0131291A+3309578]
+	GetHandleVerifier [0x0130CF42+3286578]
+	GetHandleVerifier [0x01087AE0+643536]
+	(No symbol) [0x00F8A20D]
+	(No symbol) [0x00F870B8]
+	(No symbol) [0x00F87257]
+	(No symbol) [0x00F79E00]
+	BaseThreadInitThunk [0x75587BA9+25]
+	RtlInitializeExceptionChain [0x777AC28B+107]
+	RtlClearBits [0x777AC20F+191]
+
+Traceback (most recent call last):
+  File "C:\Users\markh\OneDrive\programming_projects\Marktplaats\marktplaats_automation.py", line 229, in main
+    new_listings = get_listings()
+  File "C:\Users\markh\OneDrive\programming_projects\Marktplaats\marktplaats_automation.py", line 87, in get_listings
+    driver.get(MARKETPLACE_URL)
+  File "C:\Users\markh\miniconda3\envs\minai\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\markh\miniconda3\envs\minai\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\markh\miniconda3\envs\minai\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=133.0.6943.143)
+Stacktrace:
+	GetHandleVerifier [0x00FF0B43+25139]
+	(No symbol) [0x00F813F4]
+	(No symbol) [0x00E604E3]
+	(No symbol) [0x00E5D957]
+	(No symbol) [0x00E513A8]
+	(No symbol) [0x00E52CB0]
+	(No symbol) [0x00E51637]
+	(No symbol) [0x00E51193]
+	(No symbol) [0x00E50EA1]
+	(No symbol) [0x00E4ED80]
+	(No symbol) [0x00E4F80B]
+	(No symbol) [0x00E63FAE]
+	(No symbol) [0x00EEF427]
+	(No symbol) [0x00ECCFCC]
+	(No symbol) [0x00EEE778]
+	(No symbol) [0x00ECCDC6]
+	(No symbol) [0x00E9BDE9]
+	(No symbol) [0x00E9D124]
+	GetHandleVerifier [0x012F4373+3185251]
+	GetHandleVerifier [0x0131291A+3309578]
+	GetHandleVerifier [0x0130CF42+3286578]
+	GetHandleVerifier [0x01087AE0+643536]
+	(No symbol) [0x00F8A20D]
+	(No symbol) [0x00F870B8]
+	(No symbol) [0x00F87257]
+	(No symbol) [0x00F79E00]
+	BaseThreadInitThunk [0x75587BA9+25]
+	RtlInitializeExceptionChain [0x777AC28B+107]
+	RtlClearBits [0x777AC20F+191]
+
+
+2025-03-06 10:01:03.186332 - Bot crashed: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=133.0.6943.143)
+Stacktrace:
+	GetHandleVerifier [0x00FF0B43+25139]
+	(No symbol) [0x00F813F4]
+	(No symbol) [0x00E604E3]
+	(No symbol) [0x00E5D957]
+	(No symbol) [0x00E513A8]
+	(No symbol) [0x00E52CB0]
+	(No symbol) [0x00E51637]
+	(No symbol) [0x00E51193]
+	(No symbol) [0x00E50EA1]
+	(No symbol) [0x00E4ED80]
+	(No symbol) [0x00E4F80B]
+	(No symbol) [0x00E63FAE]
+	(No symbol) [0x00EEF427]
+	(No symbol) [0x00ECCFCC]
+	(No symbol) [0x00EEE778]
+	(No symbol) [0x00ECCDC6]
+	(No symbol) [0x00E9BDE9]
+	(No symbol) [0x00E9D124]
+	GetHandleVerifier [0x012F4373+3185251]
+	GetHandleVerifier [0x0131291A+3309578]
+	GetHandleVerifier [0x0130CF42+3286578]
+	GetHandleVerifier [0x01087AE0+643536]
+	(No symbol) [0x00F8A20D]
+	(No symbol) [0x00F870B8]
+	(No symbol) [0x00F87257]
+	(No symbol) [0x00F79E00]
+	BaseThreadInitThunk [0x75587BA9+25]
+	RtlInitializeExceptionChain [0x777AC28B+107]
+	RtlClearBits [0x777AC20F+191]
+
+Traceback (most recent call last):
+  File "C:\Users\markh\OneDrive\programming_projects\Marktplaats\marktplaats_automation.py", line 238, in main
+    new_listings = get_listings()
+  File "C:\Users\markh\OneDrive\programming_projects\Marktplaats\marktplaats_automation.py", line 87, in get_listings
+    driver.get(MARKETPLACE_URL)
+  File "C:\Users\markh\miniconda3\envs\minai\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\markh\miniconda3\envs\minai\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\markh\miniconda3\envs\minai\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=133.0.6943.143)
+Stacktrace:
+	GetHandleVerifier [0x00FF0B43+25139]
+	(No symbol) [0x00F813F4]
+	(No symbol) [0x00E604E3]
+	(No symbol) [0x00E5D957]
+	(No symbol) [0x00E513A8]
+	(No symbol) [0x00E52CB0]
+	(No symbol) [0x00E51637]
+	(No symbol) [0x00E51193]
+	(No symbol) [0x00E50EA1]
+	(No symbol) [0x00E4ED80]
+	(No symbol) [0x00E4F80B]
+	(No symbol) [0x00E63FAE]
+	(No symbol) [0x00EEF427]
+	(No symbol) [0x00ECCFCC]
+	(No symbol) [0x00EEE778]
+	(No symbol) [0x00ECCDC6]
+	(No symbol) [0x00E9BDE9]
+	(No symbol) [0x00E9D124]
+	GetHandleVerifier [0x012F4373+3185251]
+	GetHandleVerifier [0x0131291A+3309578]
+	GetHandleVerifier [0x0130CF42+3286578]
+	GetHandleVerifier [0x01087AE0+643536]
+	(No symbol) [0x00F8A20D]
+	(No symbol) [0x00F870B8]
+	(No symbol) [0x00F87257]
+	(No symbol) [0x00F79E00]
+	BaseThreadInitThunk [0x75587BA9+25]
+	RtlInitializeExceptionChain [0x777AC28B+107]
+	RtlClearBits [0x777AC20F+191]
+
+
+2025-03-06 10:04:15.739147 - Bot crashed: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=133.0.6943.143)
+Stacktrace:
+	GetHandleVerifier [0x00FF0B43+25139]
+	(No symbol) [0x00F813F4]
+	(No symbol) [0x00E604E3]
+	(No symbol) [0x00E5D957]
+	(No symbol) [0x00E513A8]
+	(No symbol) [0x00E52CB0]
+	(No symbol) [0x00E51637]
+	(No symbol) [0x00E51193]
+	(No symbol) [0x00E50EA1]
+	(No symbol) [0x00E4ED80]
+	(No symbol) [0x00E4F80B]
+	(No symbol) [0x00E63FAE]
+	(No symbol) [0x00EEF427]
+	(No symbol) [0x00ECCFCC]
+	(No symbol) [0x00EEE778]
+	(No symbol) [0x00ECCDC6]
+	(No symbol) [0x00E9BDE9]
+	(No symbol) [0x00E9D124]
+	GetHandleVerifier [0x012F4373+3185251]
+	GetHandleVerifier [0x0131291A+3309578]
+	GetHandleVerifier [0x0130CF42+3286578]
+	GetHandleVerifier [0x01087AE0+643536]
+	(No symbol) [0x00F8A20D]
+	(No symbol) [0x00F870B8]
+	(No symbol) [0x00F87257]
+	(No symbol) [0x00F79E00]
+	BaseThreadInitThunk [0x75587BA9+25]
+	RtlInitializeExceptionChain [0x777AC28B+107]
+	RtlClearBits [0x777AC20F+191]
+
+Traceback (most recent call last):
+  File "C:\Users\markh\OneDrive\programming_projects\Marktplaats\marktplaats_automation.py", line 238, in main
+    new_listings = get_listings()
+  File "C:\Users\markh\OneDrive\programming_projects\Marktplaats\marktplaats_automation.py", line 87, in get_listings
+    driver.get(MARKETPLACE_URL)
+  File "C:\Users\markh\miniconda3\envs\minai\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\markh\miniconda3\envs\minai\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\markh\miniconda3\envs\minai\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=133.0.6943.143)
+Stacktrace:
+	GetHandleVerifier [0x00FF0B43+25139]
+	(No symbol) [0x00F813F4]
+	(No symbol) [0x00E604E3]
+	(No symbol) [0x00E5D957]
+	(No symbol) [0x00E513A8]
+	(No symbol) [0x00E52CB0]
+	(No symbol) [0x00E51637]
+	(No symbol) [0x00E51193]
+	(No symbol) [0x00E50EA1]
+	(No symbol) [0x00E4ED80]
+	(No symbol) [0x00E4F80B]
+	(No symbol) [0x00E63FAE]
+	(No symbol) [0x00EEF427]
+	(No symbol) [0x00ECCFCC]
+	(No symbol) [0x00EEE778]
+	(No symbol) [0x00ECCDC6]
+	(No symbol) [0x00E9BDE9]
+	(No symbol) [0x00E9D124]
+	GetHandleVerifier [0x012F4373+3185251]
+	GetHandleVerifier [0x0131291A+3309578]
+	GetHandleVerifier [0x0130CF42+3286578]
+	GetHandleVerifier [0x01087AE0+643536]
+	(No symbol) [0x00F8A20D]
+	(No symbol) [0x00F870B8]
+	(No symbol) [0x00F87257]
+	(No symbol) [0x00F79E00]
+	BaseThreadInitThunk [0x75587BA9+25]
+	RtlInitializeExceptionChain [0x777AC28B+107]
+	RtlClearBits [0x777AC20F+191]
+
+
