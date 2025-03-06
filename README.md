@@ -4,6 +4,12 @@ Automatically notifies you when a new Nintendo DS is listed on Marktplaats.
 ## Requirements
 To use this program, you will have need to have the pushover app on a device. You will also need to get an API token and user key from pushover. Library requirements are listed in requirements.txt
 
+installing them is done by running the following in a terminal:
+
+~~~
+pip install -r requirements.txt
+~~~
+
 ## Usage
 <ul>
   <li>Create a .env file in the same folder as the script. In this .env file, write:
