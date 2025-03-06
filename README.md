@@ -14,7 +14,7 @@ To use this program, you will have need to have the pushover app on a device. Yo
   
   GOOGLE_EMAIL = "your google email"
   
-  GOOGLE_PASSWORD = "your google password"
+  GOOGLE_PASSWORD = "your google password"</li>
 
 From there you can run the script.
 In the first screen, you will need to login manually. Then, go back to your shell and press enter. This will save the cookies. 
