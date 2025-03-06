@@ -16,8 +16,8 @@ To use this program, you will have need to have the pushover app on a device. Yo
   
   GOOGLE_PASSWORD = "your google password"</li>
 
-From there you can run the script.
-In the first screen, you will need to login manually. Then, go back to your shell and press enter. This will save the cookies. 
+  <li>From there you can run the script.</li>
+  <li>In the first screen, you will need to login manually. Then, go back to your shell and press enter. This will save     the cookies. </li>
 
 Next, a new window opens up. Click 'Accepteren' or 'Accept'. And done! The rest of the work will be done by the script. 
 </ul>
