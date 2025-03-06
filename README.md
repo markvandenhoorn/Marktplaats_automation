@@ -8,8 +8,11 @@ To use this program, you will have need to have the pushover app on a device. Yo
 Create a .env file in the same folder as the script. In this .env file, write:
 
 USER_KEY = "your pushover user key"
+
 API_TOKEN = "your pushover API Token"
+
 GOOGLE_EMAIL = "your google email"
+
 GOOGLE_PASSWORD = "your google password"
 
 From there you can run the script.
