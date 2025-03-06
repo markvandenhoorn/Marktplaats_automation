@@ -19,7 +19,7 @@ To use this program, you will have need to have the pushover app on a device. Yo
   <li>From there you can run the script.</li>
   <li>In the first screen, you will need to login manually. Then, go back to your shell and press enter. This will save     the cookies. </li>
 
-Next, a new window opens up. Click 'Accepteren' or 'Accept'. And done! The rest of the work will be done by the script. 
+<li>Next, a new window opens up. Click 'Accepteren' or 'Accept'. And done! The rest of the work will be done by the script.</li>
 </ul>
 You will get a pushover notification when a new listing is posted. You will also get a notification when the program crashes. When Wifi connection is lost, the program will try to reconnect every 30 seconds. This makes it so connections issues should not prevent the program from working.
 
