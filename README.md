@@ -1,5 +1,6 @@
 # Marktplaats_automation
 Automatically notifies you when a new Nintendo DS is listed on Marktplaats.
+Note: There is a relatively large chance that this may not work on other systems but my own. Please notify me of any errors so I can change it to work on other devices as well. 
 
 ## Requirements
 To use this program, you will have need to have the pushover app on a device. You will also need to get an API token and user key from pushover. Library requirements are listed in requirements.txt
